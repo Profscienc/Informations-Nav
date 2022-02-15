@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Informations Navigateur</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+
+
+    <p id="demon"></p>
+    <p id="demons"></p>
+
+    <script>
+        document.getElementById("demon").innerHTML =
+            "Cookie activé : " + navigator.cookieEnabled;
+
+        document.getElementById("demons").innerHTML =
+            "Java activé : " + navigator.javaEnabled();
+    </script>
+
+</body>
+
+</html>
